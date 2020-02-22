@@ -1,0 +1,26 @@
+# Git
+alias gs="git status"
+alias gl="git log"
+alias glo="git log --oneline"
+alias gp="git push"
+alias gc="git commit -m "
+alias gch="git checkout "
+alias gb="git branch"
+alias gaa="git add ."
+alias nah="git reset --hard; git clean -df"
+alias wip="gaa; gc 'wip'"
+alias gac="gaa; gc"
+
+# Artisan
+alias art="php artisan "
+alias tinker="php artisan tinker"
+alias mfs="php artisan migrate:fresh --seed"
+
+# Composer
+alias cda="composer dumpautoload"
+
+# PHPUnit
+alias pu="./vendor/bin/phpunit"
+alias puf="./vendor/bin/phpunit --filter "
+alias coverage="phpdbg -qrr ./vendor/bin/phpunit --coverage-html tests/coverage/"
+alias pud="./vendor/bin/phpunit --testdox"
