@@ -8,3 +8,11 @@ fi
 
 # Run the Homebrew Script
 ./brew.sh
+
+
+# Make ZSH the default shell
+csh -s $(which zsh)
+
+
+# Create Sites directory
+mkdir $HOME/Sites
