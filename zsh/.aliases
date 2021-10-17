@@ -1,3 +1,15 @@
 #Bash
 alias c="clear"
 alias ls="ls -lapFG"
+
+#Git
+alias gs="git status"
+alias pull="git pull"
+alias push="git push"
+alias fetch="git fetch --prune"
+alias gc="git commit"
+alias ga="git add"
+alias gaa="git add ."
+alias gac="git add .; git commit"
+alias glo="git log --oneline"
+alias gl="git log"
