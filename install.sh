@@ -33,3 +33,8 @@ for APP in ${APPS[@]};
 do
     brew_install $APP
 done
+
+
+echo "Stowing files..."
+
+stow -vt ~ */
