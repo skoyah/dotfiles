@@ -1,0 +1,10 @@
+set nocompatible
+set incsearch
+set number
+set relativenumber
+syntax on
+set tabstop=4
+set softtabstop=4
+set expandtab
+set smartindent
+set updatetime=100
