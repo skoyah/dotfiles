@@ -1,11 +1,13 @@
-" Specify a directory for plugins
-" - Avoid using standard Vim directory names like 'plugin'
+"Specify a directory for plugins
+"Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
-" Initialize plugin system
+"Initialize plugin system
 call plug#end()
+
+"Set theme
 colorscheme onehalfdark
 set termguicolors
 set cursorline
