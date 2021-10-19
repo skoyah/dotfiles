@@ -44,7 +44,7 @@ filetype plugin on
 filetype indent on
 
 "Hide the tilde character on EOF blank lines.
-highlight EndOfBuffer ctermfg=black ctermbg=black
+highlight EndOfBuffer ctermfg=bg ctermbg=NONE 
 
 "Ignore capital letters during search
 set ignorecase
