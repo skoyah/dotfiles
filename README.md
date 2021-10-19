@@ -10,8 +10,3 @@ git clone https://github.com/skoyah/dotfiles
 cd dotfiles
 bash install.sh
 ```
-
-+ Symlink files
-```bash
-stow -t ~ */
-``` 
