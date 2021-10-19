@@ -2,7 +2,7 @@
 
 echo "Installing Homebrew..."
 
-if [[ `command -v brew` ]]
+if [[ `command -v brew` ]];
 then
     echo "Homebrew already installed"
 else
