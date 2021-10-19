@@ -38,3 +38,17 @@ done
 echo "Stowing files..."
 
 stow -vt ~ */
+
+
+if [[ ! -f ~/.vim/autoload/plug.vim ]];
+then
+    echo "Downloading and installing Vim-plug..."
+ 
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+else
+    echo "Vim-plug already installed"
+fi
+
+vim -c PluginInstall -c q
