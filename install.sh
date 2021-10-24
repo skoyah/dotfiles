@@ -26,6 +26,7 @@ APPS=(
     tldr
     stow
     tmux 
+    composer
 )
 
 
