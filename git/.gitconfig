@@ -1,0 +1,6 @@
+[user]
+	name = João Santos
+	email = joaoecoceanus@gmail.com
+	editor = vim
+[pull]
+	rebase = false
