@@ -27,6 +27,7 @@ APPS=(
     stow
     tmux 
     composer
+    neovim
 )
 
 

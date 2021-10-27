@@ -17,3 +17,5 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [[ ! -f ~/.aliases ]] || source ~/.aliases
+
+export PATH=$PATH:/usr/local/opt/php@8.0/bin
