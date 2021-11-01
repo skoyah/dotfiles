@@ -34,7 +34,10 @@ set softtabstop=4
 set expandtab
 
 "Reduce the update time
-set updatetime=50
+set updatetime=10
+
+"Reduce the delay when pressing keys
+set ttimeoutlen=10
 
 "Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
@@ -88,3 +91,11 @@ set colorcolumn=80
 
 "Give more space to display messages
 set cmdheight=2
+
+
+"Cycle through the buffer list
+nnoremap <TAB> :bn<ESC>
+nnoremap <S-TAB> :bp<ESC>
+
+"Make semicolon behave like the colon
+nnoremap ; :
