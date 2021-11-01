@@ -19,3 +19,5 @@ fi
 [[ ! -f ~/.aliases ]] || source ~/.aliases
 
 export PATH=$PATH:/usr/local/opt/php@8.0/bin
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
