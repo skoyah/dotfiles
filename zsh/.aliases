@@ -10,6 +10,7 @@ alias val="vim $ALIASES_PATH"
 alias sal="source $ALIASES_PATH"
 alias vz="vim $ZSHRC_PATH"
 alias vv="vim $VIMRC_PATH"
+alias sz="source $ZSHRC_PATH"
 
 #Git
 alias pull="git pull"
