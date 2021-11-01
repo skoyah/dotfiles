@@ -2,5 +2,7 @@
 	name = João Santos
 	email = joaoecoceanus@gmail.com
 	editor = vim
+[init]
+        defaultBranch = main
 [pull]
 	rebase = false
