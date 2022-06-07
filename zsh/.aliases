@@ -34,6 +34,11 @@ alias gb="git branch"
 alias gba="git branch --all"
 alias gbd="git branch -D"
 
+#Vim
+alias vim="nvim"
+alias v="vim"
+
+#functions
 mcd() {
     mkdir "$1" && cd "$1"
 }
