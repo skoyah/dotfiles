@@ -98,5 +98,6 @@ nnoremap <C-P> :FZF<CR>
 
 "File templates
 augroup templates
+    autocmd!
     autocmd BufNewFile *.php 0r ~/.vim/templates/php/basic.php
 augroup END
