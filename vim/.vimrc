@@ -1,11 +1,4 @@
-"Specify a directory for plugins
-"Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.vim/plugged')
-
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
-
-"Initialize plugin system
-call plug#end()
+source ~/.vim/vimplug.vimrc
 
 "Set theme
 colorscheme onehalfdark
@@ -99,6 +92,9 @@ nnoremap <S-TAB> :bp<ESC>
 
 "Make semicolon behave like the colon
 nnoremap ; :
+
+"Use Ctrl+P to open FZF menu
+nnoremap <C-P> :FZF<CR>
 
 "File templates
 augroup templates
