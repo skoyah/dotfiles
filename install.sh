@@ -28,6 +28,8 @@ APPS=(
     tmux 
     composer
     neovim
+    node
+    npm
 )
 
 
