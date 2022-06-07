@@ -55,7 +55,7 @@ else
     echo "Vim-plug already installed"
 fi
 
-vim -u ./vim/.vim/vimplug.vimrc -c PlugInstall -c q -c q
+nvim -u ./vim/.vim/vimplug.vimrc -c PlugInstall -c q -c q
 
 #Install lsp dependencies
 npm install -g typescript typescript-language-server
