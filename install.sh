@@ -55,4 +55,4 @@ else
     echo "Vim-plug already installed"
 fi
 
-vim -c PluginInstall -c q
+vim -u ./vim/.vim/vimplug.vimrc -c PlugInstall -c q -c q

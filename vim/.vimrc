@@ -99,3 +99,8 @@ nnoremap <S-TAB> :bp<ESC>
 
 "Make semicolon behave like the colon
 nnoremap ; :
+
+"File templates
+augroup templates
+    autocmd BufNewFile *.php 0r ~/.vim/templates/php/basic.php
+augroup END
