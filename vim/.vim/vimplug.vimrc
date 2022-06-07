@@ -9,4 +9,4 @@ Plug 'neovim/nvim-lspconfig'
 "Initialize plugin system
 call plug#end()
 
-"lua require('init')
+lua require('init')
