@@ -35,8 +35,7 @@ alias gba="git branch --all"
 alias gbd="git branch -D"
 
 #Vim
-alias vim="nvim"
-alias v="vim"
+alias v="nvim"
 
 #functions
 mcd() {
