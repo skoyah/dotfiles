@@ -6,6 +6,8 @@ set termguicolors
 set cursorline
 set t_Co=256
 
+let mapleader = " "
+
 "Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
@@ -30,7 +32,7 @@ set expandtab
 set updatetime=10
 
 "Reduce the delay when pressing keys
-set ttimeoutlen=10
+set ttimeoutlen=100
 
 "Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
@@ -95,6 +97,9 @@ nnoremap ; :
 
 "Use Ctrl+P to open FZF menu
 nnoremap <C-P> :FZF<CR>
+
+"Source current file
+nnoremap <Leader>r :w<CR> :so %<CR>
 
 "File templates
 augroup templates
