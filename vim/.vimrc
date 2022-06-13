@@ -101,6 +101,14 @@ nnoremap <C-P> :FZF<CR>
 "Source current file
 nnoremap <Leader>r :w<CR> :so %<CR>
 
+"Swap lines
+nnoremap <S-Down> :m+1<CR>
+nnoremap <S-Up> :m-2<CR>
+
+"Duplicate line
+nnoremap <C-S-Down> Yp
+nnoremap <C-S-Up> YP
+
 "File templates
 augroup templates
     autocmd!
