@@ -5,6 +5,8 @@ echo "Installing Homebrew..."
 if [[ `command -v brew` ]];
 then
     echo "Homebrew already installed"
+    echo "Changing Homebrew owner user..."
+    sudo chown -R `whoami` /usr/local/Homebrew/
 else
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
@@ -58,6 +60,7 @@ fi
 nvim -u ./vim/.vim/vimplug.vimrc -c PlugInstall -c q -c q
 
 #Install lsp dependencies
+sudo chown -R `whoami` /usr/local/lib/node_modules
 npm install -g \
     typescript \
     typescript-language-server \
